@@ -4,7 +4,7 @@ import os
 import requests
 
 from dotenv import load_dotenv
-token= "8687720269:AAHLV9W2FhYiwUT3Xt0BPfX8H4-4scLA_Vs"
+token= "your token here"
 pausing_message= "bot is paused type /on"
 bot_paused= False
 async def start(update:Update , context:ContextTypes.DEFAULT_TYPE):
